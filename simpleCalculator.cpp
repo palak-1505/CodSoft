@@ -28,7 +28,6 @@ int main(){
     cin>>opt;
     simpleCal(n1,n2,opt);
     cout<<"output:"<<endl<<" "<<n1<<" "<<opt<<" "<<n2<<"= "<<simpleCal(n1,n2,opt);
-    // cout<<"-----------THANK YOU-----------"
     return 0;
 }
 
