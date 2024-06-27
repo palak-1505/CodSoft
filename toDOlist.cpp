@@ -53,7 +53,7 @@ public:
         int task_number;
         cout << "Enter the task number to mark as completed: ";
         cin >> task_number;
-        cin.ignore(); // To ignore the newline character left by std::cin
+        cin.ignore(); 
         if (task_number > 0 && task_number <= tasks.size()) {
             tasks[task_number - 1].markStatus();
         } else {
@@ -74,7 +74,7 @@ int main() {
         cout <<endl<<"4. Exit";
         cout <<endl<<"Enter your choice: ";
         cin >> choice;
-        cin.ignore(); // To ignore the newline character left by std::cin
+        cin.ignore(); 
 
         switch (choice) {
             case 1:
